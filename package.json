@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "code-coverage": "jest --coverage",
-    "test": "jest",
+    "code-coverage": "./node_modules/jest/bin/jest.js --coverage",
+    "test": "./node_modules/jest/bin/jest.js",
     "dev": "nodemon"
   },
   "dependencies": {
